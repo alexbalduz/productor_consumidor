@@ -16,8 +16,6 @@ mutex = threading.Semaphore()
 empty = threading.Semaphore(CAPACITY)
 full = threading.Semaphore(0)
 
-# Crear cola
-
 
 def producer(name):
 
